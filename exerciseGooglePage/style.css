@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.nav-bar div {
+  padding: 10px;
+}
+
+a {
+  align-content: center;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.left-side,
+.right-side {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.right-side img {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+
+.middle-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 250px 0 25px 0;
+}
+
+.googleLogo img {
+  width: 300px;
+  height: 100px;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  width: 500px;
+  border: 0.5px solid rgba(0, 0, 0, 0.42);
+  border-radius: 20px;
+}
+
+.searchBar input {
+  width: 400px;
+  border: transparent;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.searchBar input:focus {
+  outline: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons button {
+  margin: 10px;
+  padding: 5px;
+  border: 0.5px solid rgba(0, 0, 0, 0.42);
+  border-radius: 5px;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.082);
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+footer div {
+  padding: 10px;
+}
